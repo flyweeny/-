@@ -1,5 +1,6 @@
 最长回文子串问题
 
+```js
 var longestPalindrome = function(s) {
   // babad
   // tag : dp
@@ -28,3 +29,4 @@ var longestPalindrome = function(s) {
     }
   }
   return res;
+```
