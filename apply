@@ -1,0 +1,7 @@
+function applog() {
+  var arg = Array.prototype.slice.call(arguments);
+  arg.unshift('your name');
+  console.log.apply(console, arg);
+  console.log(arg)
+}
+applog('javascript');
